@@ -1,0 +1,84 @@
+/* Add custom font */
+body {
+ 
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Image Gallery styles */
+.image-gallery {
+    height: 200px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-class{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+main{
+    background-image:url('./images/cp.png');
+    height: 500px;
+    width: 600px;
+    position: relative;
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Sets the position of the background image */
+    background-repeat: no-repeat; /* Specifies whether the background image should be repeated */
+}
+
+/* Contact Form styles */
+main{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(4, 8, 11);
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    color: rgb(2, 2, 3);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #42cede;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #51a8e2;
+    color: #050404;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #94321c;
+}
+
+.frame{
+    background-size:cover;
+}
